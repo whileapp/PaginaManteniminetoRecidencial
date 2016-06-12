@@ -5,3 +5,13 @@
 .text-icon {
 	font-size : 24px;
 }
+
+.muestra {
+	 list-style-type: circle;
+}
+
+ .put-dot {
+    font-size: 14px;
+    margin-left: 10px;
+    list-style-type: disc;
+ }

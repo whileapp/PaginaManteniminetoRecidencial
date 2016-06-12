@@ -28,6 +28,7 @@
   <title>SERVIEXPRESS ASISTENCIA</title>
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-material-datetimepicker.css"></link>
   <link rel="stylesheet" href="styles/main.css"> 
  
 
@@ -193,46 +194,39 @@
               </div>
             </div>
 
-            <div class="row">
+            <div class="row card-panel">
               <div class="col s12 m6">
-                <div class="card-panel">
-                  <ul>
-                    <li >AMPLIACIONES Y REMODELACIONES </li>
-                    <li >INSTALACIONES Y REPARACIONES ELECTRICAS</li>
-                    <li >DISTRIBUCION Y BALANCEO DE CARGAS</li>
-                    <li >CORTOS CIRCUITOS DE EMERGENCIA</li>
-                    <li >SISTEMAS DE TIERRA FISICA</li>
-                    <li >LAMPARAS, VENTILADORES Y TRITURADORES</li>
-                    <li >ILUMINACION Y AHORRO DE ENERGIA CON LAMPARAS LEDS</li>
-                    <li >SISTEMAS DE CONTROL AUTOMATICO PARA MOTOBOMBAS</li>
-                    <li >MOTOBOMBAS, HIDRONEUMATICOS Y PRESURIZADORES</li>
-                    <li >AUTOMATIZACION DE ILUMINACION</li>
-                    <li >INSTALACIONES DE Y REPARACIONES DE SISTEMAS DE INTERFON</li>                         
-                  </ul>                 
-                </div>             
+                  <ul class="put-dot">
+                    <li class="put-dot">AMPLIACIONES Y REMODELACIONES </li>
+                    <li class="put-dot">INSTALACIONES Y REPARACIONES ELECTRICAS</li>
+                    <li class="put-dot">DISTRIBUCION Y BALANCEO DE CARGAS</li>
+                    <li class="put-dot">CORTOS CIRCUITOS DE EMERGENCIA</li>
+                    <li class="put-dot">SISTEMAS DE TIERRA FISICA</li>
+                    <li class="put-dot">LAMPARAS, VENTILADORES Y TRITURADORES</li>
+                    <li class="put-dot">ILUMINACION Y AHORRO DE ENERGIA CON LAMPARAS LEDS</li>
+                    <li class="put-dot">SISTEMAS DE CONTROL AUTOMATICO PARA MOTOBOMBAS</li>
+                    <li class="put-dot">MOTOBOMBAS, HIDRONEUMATICOS Y PRESURIZADORES</li>
+                    <li class="put-dot">AUTOMATIZACION DE ILUMINACION</li>
+                    <li class="put-dot">INSTALACIONES DE Y REPARACIONES DE SISTEMAS DE INTERFON</li>
+                    <li class="put-dot">INTERRUPTORES Y TABLEROS DE ENERGIA</li>
+                  </ul>                             
               </div>
               <div class="col s12 m6">
-                <div class="card-panel">
-                  <ul>
-                    <li >INTERRUPTORES Y TABLEROS DE ENERGIA</li>
-                    <li >KIT PARA NUEVOS MEDIDIRES DE CFE</li>
-                    <li >INSTALACIONES DE GAS Y AGUA </li>
-                    <li >TINACOS Y CISTERNAS</li>
-                    <li >MOTOBOMBAS</li>
-                    <li >HIDROMEUMATICOS Y PRESURIZADORES</li>
-                    <li >CALAENTADORES DE TODAS LAS MARCAS Y MODELOS</li>
-                    <li >MUEBLES Y ACCESORIOS PARA BAÑO</li>
-                    <li >LIMPIEZA Y DESOSOLVE DE DRENAJES Y MUEBLES DE BAÑO</li>
-                    <li >CALENTADORES SOLARES</li>
-                    <li >LAVADO Y DESINFECTADO DE TINACOS Y CISTERNAS</li>
-                    <li >HUMEDADES Y FILTRACIONES DE AGUA</li>
-                    <li >TANQUES ESTACIONARIOS DE GAS</li>                            
-                  </ul>   
-                </div>           
+                <ul>
+                  <li class="put-dot">KIT PARA NUEVOS MEDIDIRES DE CFE</li>
+                  <li class="put-dot">INSTALACIONES DE GAS Y AGUA </li>
+                  <li class="put-dot">TINACOS Y CISTERNAS</li>
+                  <li class="put-dot">MOTOBOMBAS</li>
+                  <li class="put-dot">HIDROMEUMATICOS Y PRESURIZADORES</li>
+                  <li class="put-dot">CALAENTADORES DE TODAS LAS MARCAS Y MODELOS</li>
+                  <li class="put-dot">MUEBLES Y ACCESORIOS PARA BAÑO</li>
+                  <li class="put-dot">LIMPIEZA Y DESOSOLVE DE DRENAJES Y MUEBLES DE BAÑO</li>
+                  <li class="put-dot">CALENTADORES SOLARES</li>
+                  <li class="put-dot">LAVADO Y DESINFECTADO DE TINACOS Y CISTERNAS</li>
+                  <li class="put-dot">HUMEDADES Y FILTRACIONES DE AGUA</li>
+                  <li class="put-dot">TANQUES ESTACIONARIOS DE GAS</li>                            
+                </ul>             
               </div>            
-            </div>
-
-            <div class="row">     
             </div>
         </article>  
       </div>   
@@ -249,92 +243,53 @@
     </ul>
   </div>
 
-            <div id="modal1" class="modal">
-              <div class="modal-content">
-                <h4>Solicitud de registro</h4>
-                <div class="row">
-                  <form class="col s12">
-                    <div class="input-field col s12">
-                      <i class="material-icons prefix">account_circle</i>
-                      <input id="nombre" type="text" class="validate">
-                      <label for="nombre" data-error="wrong" data-success="right">Nombre cliente</label>
-                    </div>
-                    <div class="input-field col s12">
-                      <i class="material-icons prefix">account_circle</i>
-                      <input id="nombre" type="text" class="validate">
-                      <label for="nombre" data-error="wrong" data-success="right">Direccion</label>
-                    </div>
-                    <div class="input-field col s12">
-                      <i class="material-icons prefix">account_circle</i>
-                      <input id="nombre" type="text" class="validate">
-                      <label for="nombre" data-error="wrong" data-success="right">Telefono</label>
-                    </div>
-                    <div class="input-field col s12">
-                      <i class="material-icons prefix">account_circle</i>
-                      <input id="nombre" type="text" class="validate">
-                      <label for="nombre" data-error="wrong" data-success="right">Servicio</label>
-                    </div>  
-                    <div class="input-field col s12">
-                      <i class="material-icons prefix">account_circle</i>
-                      <input id="nombre" type="text" class="validate">
-                      <label for="nombre" data-error="wrong" data-success="right">Fecha y hora</label>
-                    </div>  
-
-                    <div class="input-field col s12">
-                      <i class="material-icons prefix">email</i>
-                      <input id="email" type="email" class="validate">
-                      <label for="email" data-error="wrong" data-success="right">Email</label>
-                    </div>    
-                    <div class="input-field col s12">
-                      <select id="estado">
-                        <option value="" disabled selected>Elige tu estado</option>
-                        <option value="df">D.F.</option>
-                        <option value="Guadalajara">Guadalajara</option>
-                        <option value="Michocan">Michocan</option>
-                        <option value=Aguascalientes>Aguascalientes</option>
-                        <option value=Baja California>Baja California</option>
-                        <option value=Baja California sur>Baja California sur</option>
-                        <option value=Campeche>Campeche</option>
-                        <option value=Chiapas>Chiapas</option>
-                        <option value=Chihuahua>Chihuahua</option>
-                        <option value=Ciudad de Mexico>Ciudad de Mexico</option>
-                        <option value=Coahuila>Coahuila</option>
-                        <option value=Colima>Colima</option>
-                        <option value=Durango>Durango</option>
-                        <option value=Estado de Mexico>Estado de México</option>
-                        <option value=Guanajuato>Guanajuato</option>
-                        <option value=Guerrero>Guerrero</option>
-                        <option value=Hidalgo>Hidalgo</option>
-                        <option value=Jalisco>Jalisco</option>
-                        <option value=Michoacan>Michoacan</option>
-                        <option value=Morelos>Morelos</option>
-                        <option value=Nayarit>Nayarit</option>
-                        <option value=Nuevo Leon>Nuevo Leon</option>
-                        <option value=Oaxaca>Oaxaca</option>
-                        <option value=Puebla>Puebla</option>
-                        <option value=QuerÈtaro>QuerÈtaro</option>
-                        <option value=Quintana Roo>Quintana Roo</option>
-                        <option value=San Luis PotosÌ>San Luis PotosÌ</option>
-                        <option value=Sinaloa>Sinaloa</option>
-                        <option value=Sonora>Sonora</option>
-                        <option value=Tabasco>Tabasco</option>
-                        <option value=Tamaulipas>Tamaulipas</option>
-                        <option value=Tlaxcala>Tlaxcala</option>
-                        <option value=Veracruz>Veracruz</option>
-                        <option value=Yucatan>Yucatan</option>
-                        <option value=Zacatecas>Zacatecas</option>                        
-                        <option value="otro">Otro</option>
-                        <option value="extranjero">Extranjero</option>
-                      </select>
-                      <label>Estado</label>
-                    </div>                                                    
-                  </form>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <a href="#tercera_seccion" class="waves-effect waves-blue btn-flat" id="enviar">Enviar</a>
-                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
-              </div>
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Solicitud de registro</h4>
+      <div class="row">
+        <form class="col s12">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="nombre" type="text" class="validate">
+            <label for="nombre" data-error="wrong" data-success="right">Nombre cliente</label>
+          </div>
+          <div class="input-field col s12">
+            <i class="material-icons prefix">home</i>
+            <input id="direccion" type="text" class="validate">
+            <label for="direccion" data-error="wrong" data-success="right">Direccion</label>
+          </div>
+          <div class="input-field col s12">
+            <i class="material-icons prefix">phone</i>
+            <input id="telefono" type="text" class="validate">
+            <label for="telefono" data-error="wrong" data-success="right">Telefono</label>
+          </div>
+          <div class="input-field col s12">
+            <i class="material-icons prefix">work</i>
+            <input id="servicio" type="text" class="validate">
+            <label for="servicio" data-error="wrong" data-success="right">Servicio</label>
+          </div>  
+          <div class="input-field col s12">
+            <i class="material-icons prefix">date_range</i>
+            <input type="date" class="datepicker" id="fecha">
+            <label for="fecha" data-error="wrong" data-success="right">Fecha</label>
+          </div>  
+          <div class="input-field col s12">
+           <i class="material-icons prefix">av_timer</i>
+            <input id="hora" type="text" class="validate">
+            <label for="hora" data-error="wrong" data-success="right">Hora</label>
+          </div>  
+          <div class="input-field col s12">
+            <i class="material-icons prefix">email</i>
+            <input id="email" type="email" class="validate">
+            <label for="email" data-error="wrong" data-success="right">Email</label>
+          </div>                                                       
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#tercera_seccion" class="waves-effect waves-blue btn-flat" id="enviar">Enviar</a>
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Cancelar</a>
+    </div>
 
   </section>
  
@@ -367,6 +322,8 @@
     </footer>  
       
   <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <script src="bower_components/momentjs/moment.js"></script>
+  <script src="scripts/bootstrap-material-datetimepicker.js"></script>
   <script src="scripts/main.js"></script>  
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
